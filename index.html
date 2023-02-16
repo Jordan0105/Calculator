@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div id="numPad">
+    
+        <button id="one_button" onclick="one()">
+          1
+        </button>
+        <button id="two_button" onclick="two()">
+          2
+        </button>
+        <button id="three_button" onclick="three()">
+          3
+        </button>
+        <button id="four_button" onclick="four()">
+          4
+        </button>
+        
+        <button id="five_button" onclick="five()">
+          5
+        </button>
+        
+        <button id="six_button" onclick="six()">
+          6
+        </button>
+        
+        <button id="seven_button" onclick="seven()">
+          7
+        </button>
+        
+        <button id="eigth_button" onclick="eigth()">
+          8
+        </button>
+        
+        <button id="nine_button" onclick="nine()">
+          9
+        </button>
+        <button id="zero_button" onclick="zero()">
+          0
+        </button>
+    
+        <button class="add operators" onclick="add()">
+          +
+        </button>
+        
+        <button class="sustr operators" onclick="sustr()">
+          -
+        </button>
+        
+        <button class="mult operators" onclick="mult()">
+          ×
+        </button>
+        
+       <button class="divition operators" onclick="divition()">
+        ÷
+        </button>
+
+        <button id="clearOutput" class="operators" onclick="ac()">
+          AC
+        </button>
+        <button id="equal" class="operators" onclick="equal()">
+        =
+        </button>
+        <div id="result_box">
+          <output id="result"></output>
+          </div>
+          <div id="alertMessage">
+            <span>You reached the limit!. Only 12 digits per operation.</span>
+          </div>
+         </div>
+       
+         <script src="index.js"></script>
+         <!-- <script src="Test.js"></script> -->
+</body>
+</html>

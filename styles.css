@@ -1,0 +1,141 @@
+@font-face {
+  font-family: Calculator;
+  src: url("./Font/Calculator Font.ttf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("./Font/Ubuntu Font.woff2") format('woff2');
+
+}
+
+body {
+
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+
+  color: black;
+  background-color: gray;
+  font-size: 200%;
+  /* Flex Box */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#clearOutput {
+  font-size: 100%;
+}
+
+#numPad {
+
+  max-width: 640px;
+  min-width: 310px;
+  width: 100vw;
+
+  background-color: black;
+  border: 5px black solid;
+  display: flex;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+
+  padding-top: 31px;
+
+}
+
+button {
+  width: 30%;
+  max-width: 192px;
+  height: 10%;
+  min-height: 105px;
+  border: 2px black solid;
+  font-weight: bold;
+  font-size: 100%;
+  font-family: Calculator, Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+  background-color: #85b6ed;
+}
+
+#zero_button {
+  min-width: 90%;
+}
+
+#equal {
+
+  background-color: #40b33f;
+}
+
+#equal:hover {
+  background-color: #218520;
+}
+
+.operators {
+  font-size: 150%;
+  background-color: #d15072;
+  color: antiquewhite;
+}
+
+.operators:hover {
+  color: white;
+  background-color: #a03d57
+}
+
+#clearOutput {
+  background-color: rgb(111, 109, 108);
+}
+
+#clearOutput:hover {
+  background-color: rgb(53, 52, 52);
+
+}
+
+
+#result_box {
+
+  width: 90%;
+  height: 75px;
+
+  font-size: 150%;
+  font-weight: bold;
+  font-family: Calculator, Arial, Helvetica, sans-serif;
+
+
+  background-color: #85b6ed;
+  border: 5px black solid;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+#result {
+  font-size: min(80px, 12vw);
+  margin-right: 5%;
+
+}
+
+#alertMessage {
+  width: 90%;
+  height: 10%;
+  margin-bottom: 2%;
+  text-align: center;
+  display: none;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+
+span {
+
+  color: wheat;
+  font-size: min(24px, 7vw);
+
+}
