@@ -6,7 +6,7 @@ This is a basic calculator developed with HTML, CSS & JavaScript.
 
 ## Screenshots
 
-![Iphone Screenshot](https://raw.githubusercontent.com/Jordan0105/Calculator/Responsive-Layout/Screenshots/Iphone%2012.png =300x200)
+![Iphone Screenshot](https://raw.githubusercontent.com/Jordan0105/Calculator/Responsive-Layout/Screenshots/Iphone%2012.png)
 ![Macbook Air](https://raw.githubusercontent.com/Jordan0105/Calculator/Responsive-Layout/Screenshots/Mackbook%20Air.png)
 ![S20 Ultra](https://github.com/Jordan0105/Calculator/blob/Responsive-Layout/Screenshots/S20%20Ultra.png?raw=true)
 
